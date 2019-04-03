@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<link href="css/Estilos.css" rel="stylesheet" type="text/css">
+		<link href="css/Font.css" rel="stylesheet" type="text/css">
+		<script src="js/java.js"></script>
+		<meta charset="utf-8">
+	</head>
+	<header>
+    <div class="contenedor">
+        <h1 class="icon-dog">Pet Society</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu" class="fontawesome-align-justify" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="Mascotas.html">Mascotas</a>
+                    <a href="Servicios.html">Servicios</a>
+					<a href="Adiestramiento.html">Adiestramiento</a>
+					<a href="Nosotros.html">Nosotros</a>
+                    <a href="Contacto.html">Contacto</a>
+                </nav>
+            </div>
+</header>
+        
+        <main>
+           <section id="Cuerpo">	
+			<section id="Contenido">
+				<section id="FormContacto1">
+					<form  class="frmContacto" action="index.html" method="POST" name="frmContacto" onSubmit="return validarCampos();">	
+						<input type="text"  name="txtNombre" class="field" placeholder="Nombre..." required>
+						<input type="text"  name="txtApellido" class="field" placeholder="Apellido..." required>
+						<input type="text"  name="txtCorreo" class="field" placeholder="Correo..." required>
+						<input type="text"  name="txtTelefono" class="field" placeholder="Tel&eacute;fono..."required>
+						<select  name="txtSexo" class="field" required>
+							<option>Sexo</option>
+							<option>Masculino</option>
+							<option>Feminino</option>
+							<option>Indefinido</option>
+						</select>
+						<p class="center-content">
+						<input type="submit" class="btn btn-green" value="Enviar">
+						</p>
+						<br>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.439907977493!2d-69.93703598510804!3d18.46372258744208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89e1db000001%3A0x2cfc83dbd085981d!2sPlaza+Central!5e0!3m2!1ses-419!2sdo!4v1553818570302!5m2!1ses-419!2sdo" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</form>
+				</section>
+			</section>
+		</section>
+        </main>
+        
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Pet Society &copy; 2019</p>
+                <div class="sociales">
+                    <a class="icon-facebook" href="#"></a>
+                    <a class="icon-twitter" href="#"></a>
+                    <a class="icon-instagram" href="#"></a>
+                    <a class="icon-google" href="#"></a>
+                </div>
+            </div>
+        </footer>
+</html>
